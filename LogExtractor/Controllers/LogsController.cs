@@ -42,7 +42,7 @@ namespace LogExtractor.Controllers
             }
         }
 
-        [HttpGet("downloadByID")]
+        [HttpGet("download")]
         public IActionResult GetFilesByID(int id)
         {
             try
